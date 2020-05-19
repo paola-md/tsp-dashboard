@@ -9,6 +9,7 @@ MY_HOST = os.environ['MY_HOST']
 MY_PASS = os.environ['MY_PASS']
 MY_PORT = os.environ['MY_PORT']
 
+
 def get_data(query):
     try:
         connection = psycopg2.connect(user=MY_USER , # Usuario RDS
