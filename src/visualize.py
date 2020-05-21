@@ -92,7 +92,7 @@ class ShortestPath:
                 ruta2 = df2['ruta_optima'][0].split(',')
 
                 coordenadas1 = self.get_coordinates_list(ruta1)
-                coordenadas2 = self.get_coordinates_list(ruta1)
+                coordenadas2 = self.get_coordinates_list(ruta2)
 
                 self.create_double_map(coordenadas1, coordenadas2, map_name)
 
