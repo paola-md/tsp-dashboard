@@ -308,7 +308,7 @@ def update_results(n_clicks, value_tipo, value_fza):
 
         abre_mapa = open(map_name, 'r').read()
         distancia = format(float(round(distancia,2)), ',')
-
+        ruta  = ','.join(ruta)
         return abre_mapa, distancia, ruta
 
 @app.callback(
